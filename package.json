@@ -1,16 +1,26 @@
 {
   "name": "studenttaskmanager",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Student Task Manager with MongoDB and Visitor Logging",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
-  "keywords": [],
+  "keywords": [
+    "nodejs",
+    "express",
+    "mongodb",
+    "mongoose",
+    "student-task-manager"
+  ],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "express": "^5.2.1"
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.8.1",
+    "ua-parser-js": "^2.0.10"
   }
 }
